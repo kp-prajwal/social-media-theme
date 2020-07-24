@@ -1,0 +1,70 @@
+*{
+  font-family: "Epilogue", monospace;
+}
+.navbar-brand{
+  color: rgb(240, 255, 255);
+  transition: ease 0.2s;
+}
+.navbar-brand:hover{
+  color: #5bc8ff;
+  transition: ease-in-out .9s;
+}
+
+.nav-link{
+  color: azure;
+  transition: ease 0.2s;
+}
+.nav-link:hover{
+  color: #5bc8ff;
+  transition: ease .9s;
+}
+body {
+  color: white;
+  background: #333;
+}
+
+.navbar{
+  border-bottom: #008ed6 3px solid ;
+  opacity: 90% ;
+  
+}
+.nav-item .active { color: rgb(17, 137, 218); }
+
+
+
+
+#home-section {
+  background: url(../img/header.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 700px;
+}
+
+#home-section .dark-overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 700px;
+  background-color: rgba(0, 0, 0, 0.616);
+}
+
+#home-section .home-inner{
+  padding-top: 150px;
+}
+
+
+#explore-section .fa, #share-section .fas{
+  background: #333;
+  color: white;
+  padding: 4px ;
+  border-radius: 5px;
+}
+
+#create-body-section .fa{
+  background: rgb(224, 224, 224);
+  color: rgb(18, 120, 216);
+  padding: 4px;
+  border-radius: 4px;
+}
